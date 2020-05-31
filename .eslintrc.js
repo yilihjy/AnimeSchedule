@@ -13,5 +13,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    "indent": ["error", 4],
+    "semi": ["error", "always"]
   }
 }
