@@ -12,8 +12,6 @@ export default {
         store.commit('init', data);
     },
     mounted () {
-        this.$store.commit('filter', { type: 'all', year: 'all', month: 'all' });
-        this.$store.commit('search', '老师');
     }
 };
 </script>

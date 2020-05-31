@@ -4,7 +4,7 @@ import { log } from '../utils/logger';
 export const state = () => ({
     siteMeta: {},
     items: [],
-    dataMaps: [],
+    dataMaps: {},
     searchResult: [],
     filterResult: []
 });
