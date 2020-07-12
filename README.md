@@ -1,22 +1,8 @@
-# AnimeSchedule
+# 番剧放送速查小程序的扫码网页
 
-> My well-made Nuxt.js project
+## 微信扫码体验
+![alt 小程序码](http://yilihjy.gitee.io/animeschedule/scan.jpg)
 
-## Build Setup
+## 小程序项目
+[AnimeScheduleSearch](https://github.com/yilihjy/AnimeScheduleSearch)
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
