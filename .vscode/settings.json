@@ -1,5 +1,0 @@
-{
-    "eslint.alwaysShowStatus": true,
-    "vetur.format.defaultFormatter.js": "none",
-    "eslint.format.enable": true
-}

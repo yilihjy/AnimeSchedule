@@ -1,43 +1,27 @@
 {
-  "name": "anime-schedule",
+  "name": "animeschedule",
   "version": "1.0.0",
-  "description": "My well-made Nuxt.js project",
-  "author": "yilihjy@gmail.com",
+  "description": "番剧放送速查小程序的扫码网页",
   "private": true,
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "test": "karma start --single-run",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/pwa": "^3.0.0-0",
-    "bangumi-data": "^0.3.24",
-    "lodash": "^4.17.15",
-    "nuxt": "^2.0.0",
-    "vuex": "^3.4.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yilihjy/AnimeSchedule.git"
   },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yilihjy/AnimeSchedule/issues"
+  },
+  "homepage": "https://github.com/yilihjy/AnimeSchedule#readme",
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^2.0.0",
-    "@nuxtjs/eslint-module": "^1.0.0",
-    "@nuxtjs/vuetify": "^1.0.0",
-    "@vue/test-utils": "^1.0.3",
-    "babel-eslint": "^10.0.1",
-    "chai": "^4.2.0",
-    "cross-env": "^7.0.2",
-    "eslint": "^6.1.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "karma": "^5.0.9",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^3.1.0",
-    "karma-mocha": "^2.0.1",
-    "karma-sourcemap-loader": "^0.3.7",
-    "karma-spec-reporter": "0.0.32",
-    "karma-webpack": "^4.0.2",
-    "mocha": "^7.2.0"
+    "vuepress": "^1.5.2"
   }
 }
